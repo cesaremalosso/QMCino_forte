@@ -1,0 +1,9 @@
+t = 1
+t2 = 0
+L = 30
+V = 5
+which = 0
+alpha = 0
+nsteps = 10000
+nbra = 100
+nw = 5000

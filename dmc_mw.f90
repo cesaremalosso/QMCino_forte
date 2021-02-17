@@ -13,7 +13,7 @@ program dmc_mw
 
     allocate(xxx(nw), wwalker(nw), el(nw), y(nbra,nw))
     xxx(:) = 1
-    open(2,file='dmc_brancf90.out',status='unknown', action='write')
+    open(2,file='dmc_branch.data',status='unknown', action='write')
     write(2,*) "# mean_posi     mean_energy     mean_weight"
     do ij = 1, nit
         call random_number(y)
